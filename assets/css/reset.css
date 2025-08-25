@@ -1,0 +1,82 @@
+/* Reset CSS để loại bỏ các kiểu mặc định của trình duyệt */
+
+/* Loại bỏ margin và padding mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Đảm bảo HTML và body không có khoảng cách thừa */
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    line-height: 1;
+    scroll-behavior: smooth;
+}
+
+/* Xóa kiểu danh sách mặc định */
+ul, ol {
+    list-style: none;
+}
+
+/* Xóa kiểu mặc định cho các liên kết */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Xóa kiểu mặc định cho các phần tử bảng */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Xóa viền và kiểu mặc định cho các trường nhập liệu */
+input, button, textarea, select {
+    border: none;
+    outline: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+}
+
+/* Xóa kiểu mặc định cho các phần tử inline-block */
+img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Đảm bảo các phần tử heading không có kiểu mặc định */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Xóa kiểu mặc định cho các phần tử khác */
+blockquote, q {
+    quotes: none;
+}
+
+hr {
+    border: none;
+}
+
+/* Đảm bảo phông chữ và kích thước chữ đồng nhất */
+body, button, input, select, textarea {
+    font-family: sans-serif;
+}
+
+/* Xóa kiểu mặc định cho các phần tử form */
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+/* Đảm bảo các phần tử không có kiểu mặc định không mong muốn */
+address, article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}

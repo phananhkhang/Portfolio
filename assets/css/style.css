@@ -84,8 +84,9 @@
     color: white;
     font-family: 'Fira Code', sans-serif;
 }
-.image {
-
+.section-one .intro .node:hover {
+    background-color: rgb(61, 40, 130);
+   
 }
 .bo {
     margin-left: 183px;

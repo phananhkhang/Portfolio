@@ -62,12 +62,12 @@
     display: flex;
 }
 .section-one .image img {
-    width: 415px;
+    width: 450px;
     height: auto;
     margin-top: 117px;
     border-radius: 159px;
     position: absolute;
-    right: 150px;
+    right: 220px;
 }
 .section-one .intro .des {
     margin-bottom: 42px;
@@ -85,7 +85,7 @@
     font-family: 'Fira Code', sans-serif;
 }
 .section-one .intro .node:hover {
-    background-color: rgb(61, 40, 130);
+    background-color: #800080;
    
 }
 .bo {
@@ -97,13 +97,13 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 211px;
-    top: 525px;
+    right: 302px;
+    top: 568px;
 }
 .bo {
     font-family: 'Fira Code', sans-serif;
     color: #ABB2BF;
 }
 .bo i {
-    color: #C470DB;s
+    color: #C470DB;
 }
